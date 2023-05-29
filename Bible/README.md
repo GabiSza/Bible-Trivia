@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Scripture Guessing Game
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Scripture guessing game built with React. The game presents a Scripture verse and challenges the player to guess the corresponding book of the Bible. The player can generate new Scripture verses and test their knowledge.
 
-## Available Scripts
+## features
 
-In the project directory, you can run:
+-Generates random Scripture verses from various books of the Bible.
+-Allows the player to select the category of Scripture verses (All Books, Old Testament, or New Testament).
+-Provides an input field for the player to enter their guess.
+-Verifies the player's answer and displays the result.
+-Updates the displayed Scripture verse and player's score after each round.
 
 ### `npm start`
 
@@ -29,42 +34,20 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## usage
+1. The game will display a Scripture verse and prompt the player to guess the corresponding book of the Bible.
+2. Select the category of Scripture verses using the drop-down menu (All Books, Old Testament, or New Testament).
+3. Click the "Generate Scripture" button to generate a new Scripture verse based on the selected category.
+4. Enter your guess in the input field and click the "Answer" button to check your answer.
+5. The game will display the result of your answer and update the displayed Scripture verse accordingly.
+6. Repeat steps 3-5 to continue playing and testing your knowledge of Scripture.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Scripture Guessing Game relies on the following dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React: A JavaScript library for building user interfaces.
+useState: A React hook for managing state in functional components.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+This project is licensed under the following developer's channel: https://www.youtube.com/watch?v=wBkkZcznnSg
